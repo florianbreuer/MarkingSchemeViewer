@@ -1,0 +1,348 @@
+{
+  "course_name": "MATH1120-LS-2022",
+  "quiz_name": "Q1",
+  "question_name": "CA2_TaylorPoly_WAQ",
+  "img_dir": "images",
+  "L": [
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\sin\\left(2 \\, x\\right) \\] centered at \\(x = \\frac{1}{2} \\, \\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\sin\\left(2 \\, x\\right) & \\Longrightarrow & f( \\frac{1}{2} \\, \\pi ) = 0 \\\\ \n f'(x) = 2 \\, x \\cos\\left(2 \\, x\\right) + \\sin\\left(2 \\, x\\right) & \\Longrightarrow & f'( \\frac{1}{2} \\, \\pi ) = -\\pi \\\\ \n f''(x) = -4 \\, x \\sin\\left(2 \\, x\\right) + 4 \\, \\cos\\left(2 \\, x\\right) & \\Longrightarrow & f''( \\frac{1}{2} \\, \\pi ) = -4 . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = 0 - \\pi (x - \\frac{1}{2} \\, \\pi )+\\frac{ -4 }{2!} (x - \\frac{1}{2} \\, \\pi )^2\\\\ \n & = 0 - \\pi (x - \\frac{1}{2} \\, \\pi ) - 2 (x - \\frac{1}{2} \\, \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\sin\\left(2 \\, x\\right) $",
+        "$ \\frac{1}{2} \\, \\pi $",
+        "$ 0 - \\pi (x - \\frac{1}{2} \\, \\pi ) - 2 (x - \\frac{1}{2} \\, \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 1
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\sin\\left(2 \\, x\\right) \\] centered at \\(x = \\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\sin\\left(2 \\, x\\right) & \\Longrightarrow & f( \\pi ) = 0 \\\\ \n f'(x) = 2 \\, x \\cos\\left(2 \\, x\\right) + \\sin\\left(2 \\, x\\right) & \\Longrightarrow & f'( \\pi ) = 2 \\, \\pi \\\\ \n f''(x) = -4 \\, x \\sin\\left(2 \\, x\\right) + 4 \\, \\cos\\left(2 \\, x\\right) & \\Longrightarrow & f''( \\pi ) = 4 . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = 0 + 2 \\, \\pi (x - \\pi )+\\frac{ 4 }{2!} (x - \\pi )^2\\\\ \n & = 0 + 2 \\, \\pi (x - \\pi ) + 2 (x - \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\sin\\left(2 \\, x\\right) $",
+        "$ \\pi $",
+        "$ 0 + 2 \\, \\pi (x - \\pi ) + 2 (x - \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 2
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\sin\\left(2 \\, x\\right) \\] centered at \\(x = -\\frac{1}{2} \\, \\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\sin\\left(2 \\, x\\right) & \\Longrightarrow & f( -\\frac{1}{2} \\, \\pi ) = 0 \\\\ \n f'(x) = 2 \\, x \\cos\\left(2 \\, x\\right) + \\sin\\left(2 \\, x\\right) & \\Longrightarrow & f'( -\\frac{1}{2} \\, \\pi ) = \\pi \\\\ \n f''(x) = -4 \\, x \\sin\\left(2 \\, x\\right) + 4 \\, \\cos\\left(2 \\, x\\right) & \\Longrightarrow & f''( -\\frac{1}{2} \\, \\pi ) = -4 . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = 0 + \\pi (x + \\frac{1}{2} \\, \\pi )+\\frac{ -4 }{2!} (x + \\frac{1}{2} \\, \\pi )^2\\\\ \n & = 0 + \\pi (x + \\frac{1}{2} \\, \\pi ) - 2 (x + \\frac{1}{2} \\, \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\sin\\left(2 \\, x\\right) $",
+        "$ -\\frac{1}{2} \\, \\pi $",
+        "$ 0 + \\pi (x + \\frac{1}{2} \\, \\pi ) - 2 (x + \\frac{1}{2} \\, \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 3
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\sin\\left(2 \\, x\\right) \\] centered at \\(x = -\\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\sin\\left(2 \\, x\\right) & \\Longrightarrow & f( -\\pi ) = 0 \\\\ \n f'(x) = 2 \\, x \\cos\\left(2 \\, x\\right) + \\sin\\left(2 \\, x\\right) & \\Longrightarrow & f'( -\\pi ) = -2 \\, \\pi \\\\ \n f''(x) = -4 \\, x \\sin\\left(2 \\, x\\right) + 4 \\, \\cos\\left(2 \\, x\\right) & \\Longrightarrow & f''( -\\pi ) = 4 . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = 0 - 2 \\, \\pi (x + \\pi )+\\frac{ 4 }{2!} (x + \\pi )^2\\\\ \n & = 0 - 2 \\, \\pi (x + \\pi ) + 2 (x + \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\sin\\left(2 \\, x\\right) $",
+        "$ -\\pi $",
+        "$ 0 - 2 \\, \\pi (x + \\pi ) + 2 (x + \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 4
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\cos\\left(2 \\, x\\right) \\] centered at \\(x = \\frac{1}{2} \\, \\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\cos\\left(2 \\, x\\right) & \\Longrightarrow & f( \\frac{1}{2} \\, \\pi ) = -\\frac{1}{2} \\, \\pi \\\\ \n f'(x) = -2 \\, x \\sin\\left(2 \\, x\\right) + \\cos\\left(2 \\, x\\right) & \\Longrightarrow & f'( \\frac{1}{2} \\, \\pi ) = -1 \\\\ \n f''(x) = -4 \\, x \\cos\\left(2 \\, x\\right) - 4 \\, \\sin\\left(2 \\, x\\right) & \\Longrightarrow & f''( \\frac{1}{2} \\, \\pi ) = 2 \\, \\pi . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = -\\frac{1}{2} \\, \\pi - (x - \\frac{1}{2} \\, \\pi )+\\frac{ 2 \\, \\pi }{2!} (x - \\frac{1}{2} \\, \\pi )^2\\\\ \n & = -\\frac{1}{2} \\, \\pi - (x - \\frac{1}{2} \\, \\pi ) + \\pi (x - \\frac{1}{2} \\, \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\cos\\left(2 \\, x\\right) $",
+        "$ \\frac{1}{2} \\, \\pi $",
+        "$ -\\frac{1}{2} \\, \\pi - (x - \\frac{1}{2} \\, \\pi ) + \\pi (x - \\frac{1}{2} \\, \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 5
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\cos\\left(2 \\, x\\right) \\] centered at \\(x = \\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\cos\\left(2 \\, x\\right) & \\Longrightarrow & f( \\pi ) = \\pi \\\\ \n f'(x) = -2 \\, x \\sin\\left(2 \\, x\\right) + \\cos\\left(2 \\, x\\right) & \\Longrightarrow & f'( \\pi ) = 1 \\\\ \n f''(x) = -4 \\, x \\cos\\left(2 \\, x\\right) - 4 \\, \\sin\\left(2 \\, x\\right) & \\Longrightarrow & f''( \\pi ) = -4 \\, \\pi . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = \\pi + (x - \\pi )+\\frac{ -4 \\, \\pi }{2!} (x - \\pi )^2\\\\ \n & = \\pi + (x - \\pi ) - 2 \\, \\pi (x - \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\cos\\left(2 \\, x\\right) $",
+        "$ \\pi $",
+        "$ \\pi + (x - \\pi ) - 2 \\, \\pi (x - \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 6
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\cos\\left(2 \\, x\\right) \\] centered at \\(x = -\\frac{1}{2} \\, \\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\cos\\left(2 \\, x\\right) & \\Longrightarrow & f( -\\frac{1}{2} \\, \\pi ) = \\frac{1}{2} \\, \\pi \\\\ \n f'(x) = -2 \\, x \\sin\\left(2 \\, x\\right) + \\cos\\left(2 \\, x\\right) & \\Longrightarrow & f'( -\\frac{1}{2} \\, \\pi ) = -1 \\\\ \n f''(x) = -4 \\, x \\cos\\left(2 \\, x\\right) - 4 \\, \\sin\\left(2 \\, x\\right) & \\Longrightarrow & f''( -\\frac{1}{2} \\, \\pi ) = -2 \\, \\pi . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = \\frac{1}{2} \\, \\pi - (x + \\frac{1}{2} \\, \\pi )+\\frac{ -2 \\, \\pi }{2!} (x + \\frac{1}{2} \\, \\pi )^2\\\\ \n & = \\frac{1}{2} \\, \\pi - (x + \\frac{1}{2} \\, \\pi ) - \\pi (x + \\frac{1}{2} \\, \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\cos\\left(2 \\, x\\right) $",
+        "$ -\\frac{1}{2} \\, \\pi $",
+        "$ \\frac{1}{2} \\, \\pi - (x + \\frac{1}{2} \\, \\pi ) - \\pi (x + \\frac{1}{2} \\, \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 7
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\cos\\left(2 \\, x\\right) \\] centered at \\(x = -\\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\cos\\left(2 \\, x\\right) & \\Longrightarrow & f( -\\pi ) = -\\pi \\\\ \n f'(x) = -2 \\, x \\sin\\left(2 \\, x\\right) + \\cos\\left(2 \\, x\\right) & \\Longrightarrow & f'( -\\pi ) = 1 \\\\ \n f''(x) = -4 \\, x \\cos\\left(2 \\, x\\right) - 4 \\, \\sin\\left(2 \\, x\\right) & \\Longrightarrow & f''( -\\pi ) = 4 \\, \\pi . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = -\\pi + (x + \\pi )+\\frac{ 4 \\, \\pi }{2!} (x + \\pi )^2\\\\ \n & = -\\pi + (x + \\pi ) + 2 \\, \\pi (x + \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\cos\\left(2 \\, x\\right) $",
+        "$ -\\pi $",
+        "$ -\\pi + (x + \\pi ) + 2 \\, \\pi (x + \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 8
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\sin\\left(3 \\, x\\right) \\] centered at \\(x = \\frac{1}{2} \\, \\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\sin\\left(3 \\, x\\right) & \\Longrightarrow & f( \\frac{1}{2} \\, \\pi ) = -\\frac{1}{2} \\, \\pi \\\\ \n f'(x) = 3 \\, x \\cos\\left(3 \\, x\\right) + \\sin\\left(3 \\, x\\right) & \\Longrightarrow & f'( \\frac{1}{2} \\, \\pi ) = -1 \\\\ \n f''(x) = -9 \\, x \\sin\\left(3 \\, x\\right) + 6 \\, \\cos\\left(3 \\, x\\right) & \\Longrightarrow & f''( \\frac{1}{2} \\, \\pi ) = \\frac{9}{2} \\, \\pi . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = -\\frac{1}{2} \\, \\pi - (x - \\frac{1}{2} \\, \\pi )+\\frac{ \\frac{9}{2} \\, \\pi }{2!} (x - \\frac{1}{2} \\, \\pi )^2\\\\ \n & = -\\frac{1}{2} \\, \\pi - (x - \\frac{1}{2} \\, \\pi ) + \\frac{9}{4} \\, \\pi (x - \\frac{1}{2} \\, \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\sin\\left(3 \\, x\\right) $",
+        "$ \\frac{1}{2} \\, \\pi $",
+        "$ -\\frac{1}{2} \\, \\pi - (x - \\frac{1}{2} \\, \\pi ) + \\frac{9}{4} \\, \\pi (x - \\frac{1}{2} \\, \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 9
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\sin\\left(3 \\, x\\right) \\] centered at \\(x = \\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\sin\\left(3 \\, x\\right) & \\Longrightarrow & f( \\pi ) = 0 \\\\ \n f'(x) = 3 \\, x \\cos\\left(3 \\, x\\right) + \\sin\\left(3 \\, x\\right) & \\Longrightarrow & f'( \\pi ) = -3 \\, \\pi \\\\ \n f''(x) = -9 \\, x \\sin\\left(3 \\, x\\right) + 6 \\, \\cos\\left(3 \\, x\\right) & \\Longrightarrow & f''( \\pi ) = -6 . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = 0 - 3 \\, \\pi (x - \\pi )+\\frac{ -6 }{2!} (x - \\pi )^2\\\\ \n & = 0 - 3 \\, \\pi (x - \\pi ) - 3 (x - \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\sin\\left(3 \\, x\\right) $",
+        "$ \\pi $",
+        "$ 0 - 3 \\, \\pi (x - \\pi ) - 3 (x - \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 10
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\sin\\left(3 \\, x\\right) \\] centered at \\(x = -\\frac{1}{2} \\, \\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\sin\\left(3 \\, x\\right) & \\Longrightarrow & f( -\\frac{1}{2} \\, \\pi ) = -\\frac{1}{2} \\, \\pi \\\\ \n f'(x) = 3 \\, x \\cos\\left(3 \\, x\\right) + \\sin\\left(3 \\, x\\right) & \\Longrightarrow & f'( -\\frac{1}{2} \\, \\pi ) = 1 \\\\ \n f''(x) = -9 \\, x \\sin\\left(3 \\, x\\right) + 6 \\, \\cos\\left(3 \\, x\\right) & \\Longrightarrow & f''( -\\frac{1}{2} \\, \\pi ) = \\frac{9}{2} \\, \\pi . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = -\\frac{1}{2} \\, \\pi + (x + \\frac{1}{2} \\, \\pi )+\\frac{ \\frac{9}{2} \\, \\pi }{2!} (x + \\frac{1}{2} \\, \\pi )^2\\\\ \n & = -\\frac{1}{2} \\, \\pi + (x + \\frac{1}{2} \\, \\pi ) + \\frac{9}{4} \\, \\pi (x + \\frac{1}{2} \\, \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\sin\\left(3 \\, x\\right) $",
+        "$ -\\frac{1}{2} \\, \\pi $",
+        "$ -\\frac{1}{2} \\, \\pi + (x + \\frac{1}{2} \\, \\pi ) + \\frac{9}{4} \\, \\pi (x + \\frac{1}{2} \\, \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 11
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\sin\\left(3 \\, x\\right) \\] centered at \\(x = -\\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\sin\\left(3 \\, x\\right) & \\Longrightarrow & f( -\\pi ) = 0 \\\\ \n f'(x) = 3 \\, x \\cos\\left(3 \\, x\\right) + \\sin\\left(3 \\, x\\right) & \\Longrightarrow & f'( -\\pi ) = 3 \\, \\pi \\\\ \n f''(x) = -9 \\, x \\sin\\left(3 \\, x\\right) + 6 \\, \\cos\\left(3 \\, x\\right) & \\Longrightarrow & f''( -\\pi ) = -6 . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = 0 + 3 \\, \\pi (x + \\pi )+\\frac{ -6 }{2!} (x + \\pi )^2\\\\ \n & = 0 + 3 \\, \\pi (x + \\pi ) - 3 (x + \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\sin\\left(3 \\, x\\right) $",
+        "$ -\\pi $",
+        "$ 0 + 3 \\, \\pi (x + \\pi ) - 3 (x + \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 12
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\cos\\left(3 \\, x\\right) \\] centered at \\(x = \\frac{1}{2} \\, \\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\cos\\left(3 \\, x\\right) & \\Longrightarrow & f( \\frac{1}{2} \\, \\pi ) = 0 \\\\ \n f'(x) = -3 \\, x \\sin\\left(3 \\, x\\right) + \\cos\\left(3 \\, x\\right) & \\Longrightarrow & f'( \\frac{1}{2} \\, \\pi ) = \\frac{3}{2} \\, \\pi \\\\ \n f''(x) = -9 \\, x \\cos\\left(3 \\, x\\right) - 6 \\, \\sin\\left(3 \\, x\\right) & \\Longrightarrow & f''( \\frac{1}{2} \\, \\pi ) = 6 . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = 0 + \\frac{3}{2} \\, \\pi (x - \\frac{1}{2} \\, \\pi )+\\frac{ 6 }{2!} (x - \\frac{1}{2} \\, \\pi )^2\\\\ \n & = 0 + \\frac{3}{2} \\, \\pi (x - \\frac{1}{2} \\, \\pi ) + 3 (x - \\frac{1}{2} \\, \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\cos\\left(3 \\, x\\right) $",
+        "$ \\frac{1}{2} \\, \\pi $",
+        "$ 0 + \\frac{3}{2} \\, \\pi (x - \\frac{1}{2} \\, \\pi ) + 3 (x - \\frac{1}{2} \\, \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 13
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\cos\\left(3 \\, x\\right) \\] centered at \\(x = \\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\cos\\left(3 \\, x\\right) & \\Longrightarrow & f( \\pi ) = -\\pi \\\\ \n f'(x) = -3 \\, x \\sin\\left(3 \\, x\\right) + \\cos\\left(3 \\, x\\right) & \\Longrightarrow & f'( \\pi ) = -1 \\\\ \n f''(x) = -9 \\, x \\cos\\left(3 \\, x\\right) - 6 \\, \\sin\\left(3 \\, x\\right) & \\Longrightarrow & f''( \\pi ) = 9 \\, \\pi . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = -\\pi - (x - \\pi )+\\frac{ 9 \\, \\pi }{2!} (x - \\pi )^2\\\\ \n & = -\\pi - (x - \\pi ) + \\frac{9}{2} \\, \\pi (x - \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\cos\\left(3 \\, x\\right) $",
+        "$ \\pi $",
+        "$ -\\pi - (x - \\pi ) + \\frac{9}{2} \\, \\pi (x - \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 14
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\cos\\left(3 \\, x\\right) \\] centered at \\(x = -\\frac{1}{2} \\, \\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\cos\\left(3 \\, x\\right) & \\Longrightarrow & f( -\\frac{1}{2} \\, \\pi ) = 0 \\\\ \n f'(x) = -3 \\, x \\sin\\left(3 \\, x\\right) + \\cos\\left(3 \\, x\\right) & \\Longrightarrow & f'( -\\frac{1}{2} \\, \\pi ) = \\frac{3}{2} \\, \\pi \\\\ \n f''(x) = -9 \\, x \\cos\\left(3 \\, x\\right) - 6 \\, \\sin\\left(3 \\, x\\right) & \\Longrightarrow & f''( -\\frac{1}{2} \\, \\pi ) = -6 . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = 0 + \\frac{3}{2} \\, \\pi (x + \\frac{1}{2} \\, \\pi )+\\frac{ -6 }{2!} (x + \\frac{1}{2} \\, \\pi )^2\\\\ \n & = 0 + \\frac{3}{2} \\, \\pi (x + \\frac{1}{2} \\, \\pi ) - 3 (x + \\frac{1}{2} \\, \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\cos\\left(3 \\, x\\right) $",
+        "$ -\\frac{1}{2} \\, \\pi $",
+        "$ 0 + \\frac{3}{2} \\, \\pi (x + \\frac{1}{2} \\, \\pi ) - 3 (x + \\frac{1}{2} \\, \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 15
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\cos\\left(3 \\, x\\right) \\] centered at \\(x = -\\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\cos\\left(3 \\, x\\right) & \\Longrightarrow & f( -\\pi ) = \\pi \\\\ \n f'(x) = -3 \\, x \\sin\\left(3 \\, x\\right) + \\cos\\left(3 \\, x\\right) & \\Longrightarrow & f'( -\\pi ) = -1 \\\\ \n f''(x) = -9 \\, x \\cos\\left(3 \\, x\\right) - 6 \\, \\sin\\left(3 \\, x\\right) & \\Longrightarrow & f''( -\\pi ) = -9 \\, \\pi . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = \\pi - (x + \\pi )+\\frac{ -9 \\, \\pi }{2!} (x + \\pi )^2\\\\ \n & = \\pi - (x + \\pi ) - \\frac{9}{2} \\, \\pi (x + \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\cos\\left(3 \\, x\\right) $",
+        "$ -\\pi $",
+        "$ \\pi - (x + \\pi ) - \\frac{9}{2} \\, \\pi (x + \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 16
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\sin\\left(4 \\, x\\right) \\] centered at \\(x = \\frac{1}{2} \\, \\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\sin\\left(4 \\, x\\right) & \\Longrightarrow & f( \\frac{1}{2} \\, \\pi ) = 0 \\\\ \n f'(x) = 4 \\, x \\cos\\left(4 \\, x\\right) + \\sin\\left(4 \\, x\\right) & \\Longrightarrow & f'( \\frac{1}{2} \\, \\pi ) = 2 \\, \\pi \\\\ \n f''(x) = -16 \\, x \\sin\\left(4 \\, x\\right) + 8 \\, \\cos\\left(4 \\, x\\right) & \\Longrightarrow & f''( \\frac{1}{2} \\, \\pi ) = 8 . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = 0 + 2 \\, \\pi (x - \\frac{1}{2} \\, \\pi )+\\frac{ 8 }{2!} (x - \\frac{1}{2} \\, \\pi )^2\\\\ \n & = 0 + 2 \\, \\pi (x - \\frac{1}{2} \\, \\pi ) + 4 (x - \\frac{1}{2} \\, \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\sin\\left(4 \\, x\\right) $",
+        "$ \\frac{1}{2} \\, \\pi $",
+        "$ 0 + 2 \\, \\pi (x - \\frac{1}{2} \\, \\pi ) + 4 (x - \\frac{1}{2} \\, \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 17
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\sin\\left(4 \\, x\\right) \\] centered at \\(x = \\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\sin\\left(4 \\, x\\right) & \\Longrightarrow & f( \\pi ) = 0 \\\\ \n f'(x) = 4 \\, x \\cos\\left(4 \\, x\\right) + \\sin\\left(4 \\, x\\right) & \\Longrightarrow & f'( \\pi ) = 4 \\, \\pi \\\\ \n f''(x) = -16 \\, x \\sin\\left(4 \\, x\\right) + 8 \\, \\cos\\left(4 \\, x\\right) & \\Longrightarrow & f''( \\pi ) = 8 . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = 0 + 4 \\, \\pi (x - \\pi )+\\frac{ 8 }{2!} (x - \\pi )^2\\\\ \n & = 0 + 4 \\, \\pi (x - \\pi ) + 4 (x - \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\sin\\left(4 \\, x\\right) $",
+        "$ \\pi $",
+        "$ 0 + 4 \\, \\pi (x - \\pi ) + 4 (x - \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 18
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\sin\\left(4 \\, x\\right) \\] centered at \\(x = -\\frac{1}{2} \\, \\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\sin\\left(4 \\, x\\right) & \\Longrightarrow & f( -\\frac{1}{2} \\, \\pi ) = 0 \\\\ \n f'(x) = 4 \\, x \\cos\\left(4 \\, x\\right) + \\sin\\left(4 \\, x\\right) & \\Longrightarrow & f'( -\\frac{1}{2} \\, \\pi ) = -2 \\, \\pi \\\\ \n f''(x) = -16 \\, x \\sin\\left(4 \\, x\\right) + 8 \\, \\cos\\left(4 \\, x\\right) & \\Longrightarrow & f''( -\\frac{1}{2} \\, \\pi ) = 8 . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = 0 - 2 \\, \\pi (x + \\frac{1}{2} \\, \\pi )+\\frac{ 8 }{2!} (x + \\frac{1}{2} \\, \\pi )^2\\\\ \n & = 0 - 2 \\, \\pi (x + \\frac{1}{2} \\, \\pi ) + 4 (x + \\frac{1}{2} \\, \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\sin\\left(4 \\, x\\right) $",
+        "$ -\\frac{1}{2} \\, \\pi $",
+        "$ 0 - 2 \\, \\pi (x + \\frac{1}{2} \\, \\pi ) + 4 (x + \\frac{1}{2} \\, \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 19
+    },
+    {
+      "question_type": "WAQ",
+      "question_text": "Compute the degree \\(2\\) Taylor polynomial \\(T_2f(x)\\) for the function\\[ f(x) = x \\sin\\left(4 \\, x\\right) \\] centered at \\(x = -\\pi \\).",
+      "solution_text": "\\[\n\\begin{array}{lll}\nf(x) = x \\sin\\left(4 \\, x\\right) & \\Longrightarrow & f( -\\pi ) = 0 \\\\ \n f'(x) = 4 \\, x \\cos\\left(4 \\, x\\right) + \\sin\\left(4 \\, x\\right) & \\Longrightarrow & f'( -\\pi ) = -4 \\, \\pi \\\\ \n f''(x) = -16 \\, x \\sin\\left(4 \\, x\\right) + 8 \\, \\cos\\left(4 \\, x\\right) & \\Longrightarrow & f''( -\\pi ) = 8 . \n \\end{array} \n \\] \n Therefore, the polynomial is \n \\begin{align*} \n T_2f(x) & = 0 - 4 \\, \\pi (x + \\pi )+\\frac{ 8 }{2!} (x + \\pi )^2\\\\ \n & = 0 - 4 \\, \\pi (x + \\pi ) + 4 (x + \\pi )^2.\n \\end{align*}",
+      "table_header": [
+        "$f(x)$",
+        "$x=a$",
+        "$T_2f(x)$"
+      ],
+      "table_row": [
+        "$ x \\sin\\left(4 \\, x\\right) $",
+        "$ -\\pi $",
+        "$ 0 - 4 \\, \\pi (x + \\pi ) + 4 (x + \\pi )^2$"
+      ],
+      "marks": 3,
+      "variant_number": 20
+    }
+  ]
+}
