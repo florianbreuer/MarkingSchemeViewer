@@ -1,4 +1,4 @@
 opencv-contrib-python-headless
-ipywidgets >= 7.6.5
+ipywidgets == 7.6.5
 ipywebrtc >= 0.6.0
 pillow >= 9.0.1
